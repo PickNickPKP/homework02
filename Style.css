@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.fa-user-secret {
+  font-size: 2rem;
+  color: lightblue;
+}
+
+.container {
+  background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: "Noto Sans Thai"
+}
+
+#u {
+  margin-bottom: -10px;
+  padding: 0px;
+  text-align: center;
+  gap: 100px;
+  /* border: 1px solid red; */
+}
+
+#c {
+  margin-top: -70px;
+  padding: 0px;
+  text-align: center;
+  gap: 100px;
+  /* border: 1px solid red; */
+}
+
+
+p {
+  margin: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  /* border: 1px solid red; */
+}
+
+.progress-container {
+  width: 300px;
+  height: 15px;
+  background-color: white;
+  border-radius: 1px;
+  box-shadow: 0 20px 5px rgba(0, 0, 0, 0.1);
+  margin: -0.5rem;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 80% ;
+  background-color: rgba(97, 206, 190, 0.718);
+}
+
+.percent {
+  font-size: 1rem;
+  display: flex;
+  gap: 85%;
+}
+
+.button{
+  margin-top: 3rem;
+}
+
+div input{
+  display: block;
+  /* align-items: center; */
+  margin: auto;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 5%;
+  border: none;
+  color: black;
+  background-color: rgba(124, 222, 207, 0.779);
+
+}
+
+input:hover {
+  width: 8rem;
+  height: 3rem;
+}
+
+.fa-facebook{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.fa-twitter{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.fa-linkedin-in{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  padding: 5px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.fa-envelope{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+/* nav{
+  display: flex;
+  align-items: flex-end;
+  width: 10px;
+} */
