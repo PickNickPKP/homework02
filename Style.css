@@ -5,6 +5,13 @@
   color: white;
 }
 
+nav a{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  width: 100vh;
+}
+
 .fa-user-secret {
   font-size: 2rem;
   color: lightblue;
@@ -16,27 +23,38 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 32px;
   font-family: "Noto Sans Thai"
 }
 
-#u {
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  margin-top: 10%;
+}
+
+.text > h1 {
+  margin-bottom: -4 rem;
+}
+/* #u {
   margin-bottom: -10px;
   padding: 0px;
   text-align: center;
-  gap: 100px;
+  gap: 100px; */
   /* border: 1px solid red; */
-}
+/* } */
 
-#c {
+/* #c {
   margin-top: -70px;
   padding: 0px;
   text-align: center;
   gap: 100px;
   /* border: 1px solid red; */
-}
+/* } */ */
 
 
 p {
